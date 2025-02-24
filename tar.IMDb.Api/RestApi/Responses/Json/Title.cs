@@ -1,0 +1,76 @@
+﻿using System.Collections.Generic;
+
+namespace tar.IMDb.Api.RestApi.Responses.Json {
+  public class Title {
+    public AggregateRatingsBreakdown AggregateRatingsBreakdown { get; set; }
+    public Entries<Aka> Akas { get; set; }
+    public Entries<AlexaTopQuestion> AlexaTopQuestions { get; set; }
+    public Entries<AlternateVersion> AlternateVersions { get; set; }
+    public Entries<AwardNomination> AwardNominations { get; set; }
+    public CanRate CanRate { get; set; }
+    public Certificate Certificate { get; set; }
+    public Entries<Certificate> Certificates { get; set; }
+    public IEnumerable<CompanyCreditCategory> CompanyCreditCategories { get; set; }
+    public Entries<CompanyCredit> CompanyCredits { get; set; }
+    public IEnumerable<ConnectionCategory> ConnectionCategories { get; set; }
+    public Entries<Connection> Connections { get; set; }
+    public CountryEntries CountriesOfOrigin { get; set; }
+    public Entries<CrazyCredit> CrazyCredits { get; set; }
+    public IEnumerable<CreditCategory> CreditCategories { get; set; }
+    public Entries<Credit> Credits { get; set; }
+    public EpisodeEntries Episodes { get; set; }
+    public IEnumerable<ExternalLinkCategory> ExternalLinkCategories { get; set; }
+    public Entries<ExternalLink> ExternalLinks { get; set; }
+    public Entries<FaqEntry> Faqs { get; set; }
+    public Entries<FilmingDate> FilmingDates { get; set; }
+    public Entries<FilmingLocation> FilmingLocations { get; set; }
+    public GenreEntries Genres { get; set; }
+    public IEnumerable<GoofCategory> GoofCategories { get; set; }
+    public Entries<Goof> Goofs { get; set; }
+    public string Id { get; set; }
+    public IEnumerable<ImageTypeEntry> ImageTypes { get; set; }
+    public Entries<Image> Images { get; set; }
+    public bool? IsAdult { get; set; }
+    public Entries<KeywordEntries> Keywords { get; set; }
+    public Video LatestTrailer { get; set; }
+    public LifetimeGross LifetimeGrossDomestic { get; set; }
+    public LifetimeGross LifetimeGrossInternational { get; set; }
+    public LifetimeGross LifetimeGrossWorldwide { get; set; }
+    public Meta Meta { get; set; }
+    public Metacritic Metacritic { get; set; }
+    public Entries<Title> MoreLikeThisTitles { get; set; }
+    public Entries<NewsEntry> News { get; set; }
+    public OpeningWeekendGross OpeningWeekendGrossDomestic { get; set; }
+    public OpeningWeekendGross OpeningWeekendGrossInternational { get; set; }
+    public OpeningWeekendGross OpeningWeekendGrossWorldwide { get; set; }
+    public StringText OriginalTitleText { get; set; }
+    public ParentsGuide ParentsGuide { get; set; }
+    public ParentsGuideCategories ParentsGuideCategories { get; set; }
+    public Plot Plot { get; set; }
+    public Entries<Plot> Plots { get; set; }
+    public PrestigiousAwardSummary PrestigiousAwardSummary { get; set; }
+    public Image PrimaryImage { get; set; }
+    public ProductionBudget ProductionBudget { get; set; }
+    public Entries<ProductionDate> ProductionDates { get; set; }
+    public ProductionStatus ProductionStatus { get; set; }
+    public Entries<Quote> Quotes { get; set; }
+    public RatingsSummary RatingsSummary { get; set; }
+    public ReleaseDate ReleaseDate { get; set; }
+    public Entries<ReleaseDate> ReleaseDates { get; set; }
+    public Years ReleaseYear { get; set; }
+    public Entries<Review> Reviews { get; set; }
+    public Runtime Runtime { get; set; }
+    public Entries<Runtime> Runtimes { get; set; }
+    public SeriesEntry Series { get; set; }
+    public Entries<Soundtrack> Soundtrack { get; set; }
+    public SpokenLanguageEntries SpokenLanguages { get; set; }
+    public Entries<Image> StillFrame { get; set; }
+    public Entries<StringText> Taglines { get; set; }
+    public TechnicalSpecifications TechnicalSpecifications { get; set; }
+    public TitleText TitleText { get; set; }
+    public TitleType TitleType { get; set; }
+    public Entries<TriviaEntry> Trivia { get; set; }
+    public IEnumerable<TriviaCategory> TriviaCategories { get; set; }
+    public Entries<Video> VideoStrip { get; set; }
+  }
+}

@@ -500,7 +500,7 @@ namespace tar.IMDb.Api.RestApi {
 
     public async Task<RestResponse<Response>> GetImageTypesAsync(
       string titleId,
-      int maxNumberOfResults = 50,
+      int maxNumberOfResults = 1,
       bool showOriginalTitleText = true
     ) {
       Queryizer query = new Queryizer(

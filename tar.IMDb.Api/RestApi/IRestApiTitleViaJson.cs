@@ -27,7 +27,7 @@ namespace tar.IMDb.Api.RestApi {
     Task<RestResponse<Response>> GetGoofCategoriesAsync(string titleId, int maxNumberOfResults = 1, bool showOriginalTitleText = true);
     Task<RestResponse<Response>> GetGoofsAsync(string titleId, string category = null, int maxNumberOfResults = 50, string previousEndCursor = "", bool showOriginalTitleText = true);
     Task<RestResponse<Response>> GetImagesAsync(string titleId, string type = null, int maxNumberOfResults = 50, string previousEndCursor = "", bool showOriginalTitleText = true);
-    Task<RestResponse<Response>> GetImageTypesAsync(string titleId, int maxNumberOfResults = 50, bool showOriginalTitleText = true);
+    Task<RestResponse<Response>> GetImageTypesAsync(string titleId, int maxNumberOfResults = 1, bool showOriginalTitleText = true);
     Task<RestResponse<Response>> GetKeywordsAsync(string titleId, int maxNumberOfResults = 50, string previousEndCursor = "", bool showOriginalTitleText = true);
     Task<RestResponse<Response>> GetMoreLikeThisTitlesAsync(string titleId, int maxNumberOfResults = 50, string previousEndCursor = "", bool showOriginalTitleText = true);
     Task<RestResponse<Response>> GetNewsAsync(string titleId, int maxNumberOfResults = 50, string previousEndCursor = "", bool showOriginalTitleText = true);
